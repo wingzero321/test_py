@@ -87,4 +87,6 @@ for label, x, y in zip(rets.columns, rets.mean(), rets.std()):
 plt.show()
 
 
+print 'Hello World'
+
 
