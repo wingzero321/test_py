@@ -84,7 +84,7 @@ for label, x, y in zip(rets.columns, rets.mean(), rets.std()):
         bbox = dict(boxstyle = 'round,pad=0.5', fc = 'yellow', alpha = 0.5),
         arrowprops = dict(arrowstyle = '->', connectionstyle = 'arc3,rad=0'))
 
-# plt.show()
+plt.show()
 
 
 
